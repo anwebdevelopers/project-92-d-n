@@ -1,0 +1,227 @@
+.footer {
+    padding: 3rem 0 9rem 0;
+}
+.footer__box {
+    display: flex;
+}
+
+.footer__inner {
+    flex: 1 1 auto;
+
+    padding: 3rem;
+    background-color: $color-main;
+    color: #fff;
+    border-radius: .4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.footer__text {
+    flex: 0 1 auto;
+    margin-right: 4rem;
+}
+.footer__copy {
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+.footer__policy {
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    a {
+        color: inherit;
+        text-decoration: underline;
+        transition: .3s;
+        &:hover, &:active {
+            opacity: .5;
+        }
+    }
+}
+.footer__address {
+    display: block;
+    flex: 0 1 auto;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    font-style: normal;
+    margin-right: 4rem;
+}
+.footer__contacts {
+    flex: 0 1 auto;
+    margin-right: 4rem;
+}
+
+.footer__phone {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.2;
+    a {
+        text-decoration: none;
+        color: inherit;
+        white-space: nowrap;
+        transition: .3s;
+        &:hover, &:active {
+            opacity: .5;
+        }
+    }
+}
+.footer__email {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    font-size: 1.8rem;
+    line-height: 1.2;
+    a {
+        text-decoration: underline;
+        color: inherit;
+        white-space: nowrap;
+        transition: .3s;
+        &:hover, &:active {
+            opacity: .5;
+        }
+    }
+}
+.footer__callback {
+    flex: 0 1 auto;
+}
+.footer__author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    flex: 0 1 auto;
+    align-self: flex-end;
+    margin-left: 4rem;
+    transition: .3s;
+    &:hover, &:active {
+        opacity: .7;
+    }
+}
+.footer__author-text {
+    writing-mode: vertical-rl;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    transform: rotate(180deg);
+}
+.footer__author-icon {
+    display: block;
+    margin: 1rem 0 0 0;
+    img {
+        display: block;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+    }
+}
+
+
+@media only screen and (max-width : 1180px) {
+
+}
+
+@media only screen and (max-width : 992px) {
+    .footer__text {
+        margin-right: 2rem;
+    }
+    .footer__address {
+        margin-right: 2rem;
+    }
+    .footer__contacts {
+        margin-right: 2rem;
+    }
+    .footer__phone {
+        font-size: 2rem;
+    }
+    .footer__email {
+        font-size: 1.6rem;
+    }
+    .footer__author {
+        margin-left: 2rem;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    .footer__inner {
+        flex-wrap: wrap;
+    }
+    .footer__text {
+        margin-right: 2rem;
+        width: calc(50% - 1rem);
+    }
+    .footer__address {
+        width: calc(50% - 1rem);
+        margin-right: 0;
+    }
+
+    .footer__contacts {
+        margin-top: 4rem;
+        margin-right: 2rem;
+        width: calc(50% - 1rem);
+    }
+    .footer__callback {
+        margin-top: 4rem;
+        width: calc(50% - 1rem);
+    }
+}
+
+@media only screen and (max-width : 640px) {
+    .footer {
+        padding: 3rem 0;
+    }
+    .footer__box {
+        display: block;
+    }
+    .footer__author {
+        margin-left: 0;
+        margin-top: 3rem;
+        flex-direction: row-reverse;
+        justify-content: center;
+    }
+    .footer__author-text {
+        writing-mode: initial;
+        transform: none;
+    }
+    .footer__author-icon {
+        margin-top: 0;
+        margin-right: 1rem;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    .footer__inner {
+        display: block;
+        text-align: center;
+    }
+    .footer__text {
+        width: auto;
+        margin-right: 0;
+    }
+    .footer__address {
+        width: auto;
+        margin-right: 0;
+        margin-top: 3rem;
+    }
+    .footer__contacts {
+        width: auto;
+        margin-right: 0;
+
+    }
+    .footer__phone,
+    .footer__email {
+        align-items: center;
+    }
+    .footer__callback {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width : 360px) {
+
+}

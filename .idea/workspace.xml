@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42f91a77-5f6e-47ea-8c83-f0eb74a5d28b" name="Default Changelist" comment="" />
+    <list default="true" id="42f91a77-5f6e-47ea-8c83-f0eb74a5d28b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/build/scss/components/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/full.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scss/components/clients.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/clients.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scss/components/services.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/services.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/main.scss" afterDir="false" />
+    </list>
     <list id="bf1cc2a1-eed9-4673-be9b-2a8bb0ebd5de" name="ignore" comment="ignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +63,8 @@
       <workItem from="1600834726971" duration="51000" />
       <workItem from="1600834796863" duration="17887000" />
       <workItem from="1600930313861" duration="1911000" />
-      <workItem from="1600933718159" duration="10578000" />
+      <workItem from="1600933718159" duration="11069000" />
+      <workItem from="1601022968001" duration="6108000" />
     </task>
     <task id="LOCAL-00001" summary="Стартовый коммит">
       <created>1565692588708</created>
@@ -93,10 +103,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600931575341" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1600933721741">
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1601022970318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1600933721741" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1601022970318" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1600949352888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
